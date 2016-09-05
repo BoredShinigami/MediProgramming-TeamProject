@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="myJumbotron">
+    <h1>FrictionFree</h1>
+</div>
+
+<div id = "main"></div>
+<div id = "preStart">
+    <div class="gameButtons" id="gameButtons">
+        <a id="btn" href="#" class="btn btn-default btn-lg" onclick="startGame(0)">Beginner</a>
+        <a id="btn" href="#" class="btn btn-default btn-lg" onclick="startGame(1)">Intermediate</a>
+        <a id="btn" href="#" class="btn btn-default btn-lg" onclick="startGame(2)">Expert</a>
+    </div>
+
+    <div class="instructDiv" id="instructDiv">
+        <h2>Instructions</h2>
+        <p>Your sprite is controlled using the four directional keys.</p>
+        <p>The velocity of the sprite increases at a constant rate based on the length of time for which the key is held.</p>
+        <h2>Objective</h2>
+        <p>Your objective is to navigate the course as fast as possible without colliding with the sides.</p>
+        <h2>Levels</h2>
+        <p>Your sprite's capability to gain velocity will increase as you go from Beginner to Expert.</p>
+    </div>
+</div>
+</body>
+</html>

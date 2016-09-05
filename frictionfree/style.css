@@ -1,0 +1,132 @@
+body
+{
+    padding: 40px;
+    text-align: center;
+    color: white;
+    background: url("res/bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.myJumbotron{
+    color: #9F79EE;
+    text-shadow: 0px 2px 3px #C3E4ED;
+    background-color: #000033;
+    border-radius: 5px;
+
+    -webkit-box-shadow:
+            0px 0px 0px 2px rgba(0,0,0,0.6),
+            0px 0px 0px 14px #9AC0CD,
+            0px 0px 0px 18px rgba(0,0,0,0.2),
+            6px 6px 8px 17px #555;
+
+    -moz-box-shadow:
+            0px 0px 0px 2px rgba(0,0,0,0.6),
+            0px 0px 0px 14px #9AC0CD,
+            0px 0px 0px 18px rgba(0,0,0,0.2),
+            6px 6px 8px 17px #555;
+
+    box-shadow:
+            0px 0px 0px 2px rgba(0,0,0,0.6),
+            0px 0px 0px 14px #9AC0CD,
+            0px 0px 0px 18px rgba(0,0,0,0.2),
+            6px 6px 8px 17px #555;
+}
+
+
+#bestResults
+{
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    clear: left;
+    position: fixed;
+    right: 10px;
+    width: 15vw;
+    margin-top: 3vh;
+}
+
+h1 {
+    position: relative;
+    font-size: 140px;
+    margin-top: 0;
+    font-family: 'Righteous', cursive;
+    text-shadow: 2px 3px 3px #292929;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 1px white;
+    text-align: center;
+}
+
+
+
+.gameButtons{
+    padding: 20px;
+    text-align: center;
+
+
+}
+#btn
+{
+    border: 2px solid white;
+    border-radius:5px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 30px;
+}
+.instructDiv{
+    text-align: center;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0
+
+}
+
+
+h2{
+    font-size: 28px;
+    color: white;
+    
+}
+p{
+ 
+    font-size: 24px;
+    color: #E4D9D9;
+}
+
+.btn {
+    
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn-default {
+    background: #9AC0CD;
+    color: #000033;
+    width: 10em;
+    height: 4em;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+
+
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background: #D1B6B7;
+}
+
+#gameCanvas{
+    position: fixed;
+    left: 10px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    height: 65vh;
+}
+
+#timeDiv{
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    margin-top: 1vw;
+}
