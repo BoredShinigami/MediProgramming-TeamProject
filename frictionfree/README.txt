@@ -1,5 +1,7 @@
 FrictionFree
 
+Hosted at http://cs270.uk.tempcloudsite.com but may trigger some firewalls.
+
 Created by Mariusz Skoczen, Lorraine Fogarty and Jamie Raleigh.
 
 Music "colors of winter" by lost-radio, used under Creative Commons License
